@@ -3,11 +3,13 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "墙下一朵花",
+				"navigationBarBackgroundColor":"#007AFF"
 			}
 		}
 	],
 	"globalStyle": {
+		"navigationStyle":"default",
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
