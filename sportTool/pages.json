@@ -3,16 +3,61 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "墙下一朵花",
-				"navigationBarBackgroundColor":"#007AFF"
+				"navigationBarTitleText": "BMI测量",
+				"navigationBarBackgroundColor":"#42b983"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/clock/clock",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "运动秒表",
+				"navigationBarBackgroundColor":"#42b983",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/calories/calories",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "卡路里菜单",
+				"navigationBarBackgroundColor":"#42b983",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationStyle":"default",
-		"navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "#fff",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#3F536E",
+		"selectedColor":"#42b983",
+		"backgroundColor":"#fff",
+		"list":[ //显示页面信息，包含了所有需要跳转页面的信息
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"./static/img/BMI.png",
+				"selectedIconPath":"./static/img/BMISelect.png",
+				"text":"BMI测量"
+			},
+			{
+				"pagePath":"pages/clock/clock",
+				"iconPath":"./static/img/clock.png",
+				"selectedIconPath":"./static/img/clockSelect.png",
+				"text":"运动计时器"
+			},
+			{
+				"pagePath":"pages/calories/calories",
+				"iconPath":"./static/img/food.png",
+				"selectedIconPath":"./static/img/foodSelcet.png",
+				"text":"卡路里菜单"
+			}
+		]
 	}
 }
