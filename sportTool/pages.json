@@ -4,8 +4,10 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "BMI测量",
-				"navigationBarBackgroundColor":"#42b983"
+				"navigationBarBackgroundColor":"#42b983",
+				"navigationBarTextStyle":"white"
 			}
+			
 		}
 	    ,{
             "path" : "pages/clock/clock",
@@ -13,6 +15,7 @@
             {
                 "navigationBarTitleText": "运动秒表",
 				"navigationBarBackgroundColor":"#42b983",
+				"navigationBarTextStyle":"white",
                 "enablePullDownRefresh": false
             }
             
@@ -23,6 +26,7 @@
             {
                 "navigationBarTitleText": "卡路里菜单",
 				"navigationBarBackgroundColor":"#42b983",
+				"navigationBarTextStyle":"white",
                 "enablePullDownRefresh": false
             }
             
