@@ -6,6 +6,7 @@
 				<button type="default" @click="handleChangeTime">确认</button>
 			</view>
 		</view>
+		<!-- <audio src="../../static/sound/clock.mp3" :loop="true" ></audio> -->
 		<view class="time-box">
 			<view class="set-box">
 					<view class="set-common" @click="setDefaultTime" >
@@ -34,6 +35,10 @@
 </template>
 
 <script>
+	const sound = uni.createInnerAudioContext()
+	sound.src='../../static/sound/clock.mp3'
+	// sound.loop = true
+	// loop
 	export default {
 		data() {
 			return {
@@ -55,6 +60,7 @@
 							this.status = !this.status
 							return
 						}
+						sound.play()
 						this.showTime--
 					},1000)
 				}
