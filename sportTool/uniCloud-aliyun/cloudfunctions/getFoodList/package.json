@@ -1,0 +1,7 @@
+{
+  "name": "getFoodList",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

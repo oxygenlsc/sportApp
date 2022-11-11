@@ -8,9 +8,13 @@
      	},
      	"h5" : 
      	{
-     		"launchtype" : "local"
+     		"launchtype" : "remote"
      	},
-     	"type" : "uniCloud"
+     	"type" : "uniCloud",
+     	"uniapp" : 
+     	{
+     		"launchtype" : "local"
+     	}
      }
     ]
 }
